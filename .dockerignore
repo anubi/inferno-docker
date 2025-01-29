@@ -1,0 +1,60 @@
+# Ignore build artifacts
+*.o
+*.a
+*.so
+*.exe
+*.out
+
+# Ignore compiled binary files
+bin/
+obj/
+build/
+dist/
+*.dSYM/
+
+# Ignore dependencies and package manager files
+*.log
+*.cache
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Ignore temporary and generated files
+*.tmp
+*.temp
+*.pid
+*.lock
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore version control system files
+.git/
+.gitignore
+.gitmodules
+.svn/
+.hg/
+
+# Ignore IDE and editor config files
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files that shouldn’t be in the container
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore test artifacts
+test/
+tests/
+__pycache__/  # If any Python scripts exist in the project
+*.gcda
+*.gcno
+*.gcov

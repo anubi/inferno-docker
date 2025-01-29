@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  infernomoo:
+    build: ../
+    container_name: infernomoo
+    ports:
+      - "7779:7779"
+    restart: unless-stopped
